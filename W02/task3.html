@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>W02: task3</title>
+</head>
+<body>
+<script src="vec3.js"></script>
+<script>
+
+var x = 5, y = 4, z = 8; // (input values)
+var x0, y0, z0; // (input vertex 0)
+var x1, y1, z1; // (input vertex 1)
+var x2, y2, z2; // (input vertex 2)
+x0 = 2, y0 = 5, z0 = 8;
+x1 = 3, y1 = 6, z1 = 4;
+x2 = 9, y2 = 2, z2 = 5;
+var v0 = new Vec3( x0, y0, z0 );
+var v1 = new Vec3( x1, y1, z1 );
+var v2 = new Vec3( x2, y2, z2 );
+var S = AreaOfTriangle( v0, v1, v2 ); // (output value)
+
+document.write( "AreaofTriangle is" + S);
+
+</script>
+</body>
+</html>
